@@ -1,0 +1,32 @@
+    Práctico 6: Árboles binarios
+
+1)Se tiene un archivo desordenado con números enteros. Se pretende que realice un procedimiento que lea todos los números del archivo y genere un árbol ordenado en forma ascendente.
+
+2)Hacer un procedimiento que imprima los números del árbol del ejercicio 1: a) en  orden ascendente(in-order). b) en orden descendente(in-order) c) imprimir de tal forma que no se imprima un padre si no se han impreso todos sus hijos (post-order). d) imprimir los números del árbol anterior de tal forma que no se imprima un nodo si no se ha impreso su padre (pre-order).
+
+3)Se tiene  un árbol binario cuyos nodos contienen el Nro. Alumno y DNI de los alumnos de Intro II. El árbol está ordenado por DNI. Se pide: a) Hacer un procedimiento/función que dado un DNI retorne el Nro. de Alumno asociado b)Hacer un procedimiento/función que dado un  Nro. de Alumno retorne el DNI asociado
+
+4)Realice un procedimiento que dado un número lo busque en el árbol ordenado y lo borre si existe. Tenga en cuenta que dicho número se puede encontrar como una hoja del árbol (sin hijos que cuelguen de él) o como nodo interno con otros nodos colgando de él.
+Si el nodo a eliminar (B) es interno y tiene las dos subramas no vacías se utiliza la estrategia de reemplazo por el Nodo más Derecho (C) del Subárbol Izquierdo.
+
+4.a) Para el ejercicio anterior indique todos los casos especiales que deberían testearse y el resultado esperado de la prueba. Plantee datos para cada uno de ellos y ejecute las pruebas en el entorno. Registre los resultados obtenidos. Si se detectan errores en el código, corríjalos y vuelva a realizar las mismas pruebas con los mismos datos.
+
+5)Hacer un método que retorne el menor de los elementos de un árbol binario.
+ a) árbol desordenado
+ b) árbol ordenado
+
+TERMINADO
+6)Hacer un método que retorne la longitud de la mayor rama de un árbol.
+
+
+7)Dado un árbol transformarlo en lista recorriendolo en preorden.
+
+8)  Dado un árbol binario de números enteros, sumarle a cada nodo padre los valores de sus hijos de manera que la raíz pase a tener la suma de todos los elementos del árbol.
+
+9)Dado un árbol binario ordenado de enteros  a) hacer un método que retorne  la cantidad de nodos del árbol
+---------- FALTA TERMINAR______________
+10)Dada una lista ordenada, armar un árbol binario balanceado. Para ello se toma el elemento central de la lista y se lo coloca como raíz de un árbol en el que cada sublista (transformada recursivamente en árbol) cuelga como hijo.
+
+Primer paso:
+
+y así continuar recursivamente.

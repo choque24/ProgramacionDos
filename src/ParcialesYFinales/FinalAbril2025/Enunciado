@@ -1,0 +1,19 @@
+Se tiene un árbol binario de enteros (arbolEnteros), ordenado por valor (o sea, un BST).
+Se pide generar una lista doblemente enlazada (listaResumen), ordenada en forma ascendente, con los valores de los nodos que cumplan todas estas condiciones:
+
+
+CONDICIONES
+////
+
+-El valor del nodo debe ser mayor a 500 y menor a 1000.
+(y no recorrer innecesariamente el árbol → aprovechar que está ordenado).
+
+-
+-El nivel del nodo debe ser mayor a 2.
+(la raíz está en nivel 0).
+
+////
+Restricciones de cursada 2024
+Resolver en Java.
+Hacer las estructuras de cada clase y sólo los métodos necesarios para resolver el problema.
+Se pueden usar getters/setters pero no hace falta implementarlos (sólo declararlos).

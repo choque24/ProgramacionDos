@@ -1,0 +1,32 @@
+Se tiene una lista LISTPROD con datos de productos. Cada nodo de LISTPROD tiene
+id_producto de tipo entero, un puntero al siguiente para enlazar la lista LISTPROD, y un
+puntero a un árbol asociado a ese producto que contiene información sobre las ventas del
+mismo.
+ Así cada nodo de árbol tiene anio de tipo entero, una cantidad de ventas de tipo
+entero, y los respectivos punteros que permiten mantener la estructura de árbol.
+
+La lista LISTPROD ya está creada y está ordenada ascendente por id_producto. Cada árbol
+también está creado y está ordenado por anio.
+
+Se pide guardar la información de los nodos de los árboles que se encuentran en un nivel
+mayor a NIVELMIN (El nodo raíz del árbol es NIVEL=0), tienen anio menor a ANIOMAX, y
+corresponden a un producto con id_producto mayor a IDMIN.
+
+Para todos los nodos que cumplan con estas condiciones, se debe guardar su información en un archivo de registros
+de nombre “aniosproductos.dat”. Cada registro de este archivo tiene el anio y las cantidades
+de ventas acumuladas de ese anio. El archivo debe crearse, no tiene orden y los anios no
+se pueden repetir.
+
+TODAVIA NO HACER
+Por ejemplo: si hay dos o más id_producto mayores que IDMIN, están asociados a nodos
+de árbol con nivel mayor a MINNIVEL, y con ventas en el mismo anio que además es menor
+a ANIOMAX, las cantidades acumuladas de dichos nodos debería estar en un solo registro
+del archivo.
+
+Para la solución propuesta deberá considerar:
+_NIVELMIN, ANIOMAX, IDMIN se encuentran precargados por el usuario.
+_No realizar recorridos innecesarios de la lista de árboles.
+_No utilizar estructuras auxiliares.
+_Puede utilizar el archivo para ir guardando los acumulados parciales.
+_Realizar diagrama de estructura, programa principal, procedimientos y funciones,
+constantes, ti pos y variables

@@ -1,0 +1,55 @@
+Práctico 1: Archivos
+
+Objetivo: A lo largo de este práctico ejercitará la gestión de archivos, su acceso, lectura, creación y agregado de textos en los mismos.
+
+Tenga en cuenta que para poder trabajar con archivos los mismos deben estar en el directorio “/work/” y como todos vamos a compartir el mismo espacio debemos identificar a nuestros archivos con un prefijo que nos diferencie, por ejemplo nuestro apellido y/o nombre, por ejemplo podríamos usar: “/work/HCobo-archivo1.txt” dónde “/work/” el el directorio y “HCobo” es mi nombre para que el resto no lo lea/grabe/borre. Por lo tanto a todos los nombres de archivos sugeridos en los ejercicios incorpore al inicio lo enunciado aquí.
+
+TERMINADO
+Ejercicio 1: Crear y Escribir en un Archivo de Texto Simple
+Objetivo: Introducir la creación y escritura básica de archivos.
+Descripción: Crear un programa en Java que genere un archivo de texto llamado "saludo.txt" y escriba en él la frase "Hola Mundo".
+
+TERMINADO
+Ejercicio 2: Leer y Mostrar Contenido de un Archivo de Texto
+Objetivo: Introducir la lectura de archivos.
+Descripción: Crear un programa que lea el archivo "saludo.txt" creado en el ejercicio anterior y muestre su contenido en la consola.
+
+TERMINADO
+Ejercicio 3: Escribir Varias Líneas en un Archivo
+Objetivo: Ampliar el conocimiento de escritura en archivos.
+Descripción: Crear un programa que escriba varias líneas de texto en un archivo llamado "datos.txt". Las líneas pueden ser introducidas por el usuario a través de la consola.
+
+TERMINADO
+Ejercicio 4: Leer y Contar Líneas de un Archivo
+Objetivo: Practicar la lectura línea por línea.
+Descripción: Crear un programa que lea un archivo "datos.txt" y cuente cuántas líneas contiene. Mostrar el resultado en la consola.
+
+TERMINADO
+Ejercicio 5: Escribir y Leer un Archivo de Texto con Datos Numéricos
+Objetivo: Introducir la lectura y escritura de datos numéricos.
+Descripción: Crear un programa que permita al usuario ingresar 5 números enteros, los escriba en un archivo "numeros.txt" (uno por línea) y luego los lea y los muestre en la consola. Para esto deberá utilizar una utilidad de conversión de tipos (investigue).
+
+TERMINADO
+Ejercicio 6: Appender (Agregar Datos) a un Archivo Existente
+Objetivo: Aprender a agregar información a un archivo ya existente.
+Descripción: Modificar el programa del ejercicio 3 para que en lugar de sobreescribir el archivo "datos.txt", agregue nuevas líneas al final del archivo sin borrar las existentes. Para esto tenga en cuenta el segundo parámetro del método FileWriter.
+
+TERMINADO
+Ejercicio 7: Copiar el Contenido de un Archivo a Otro
+Objetivo: Introducir la manipulación de archivos más avanzada.
+Descripción: Crear un programa que lea el contenido de un archivo "datos.txt" y lo copie en otro archivo llamado "copia.txt".
+
+TERMINADO
+Ejercicio 8: Buscar y Reemplazar Texto en un Archivo
+Objetivo: Introducir conceptos más avanzados de procesamiento de archivos.
+Descripción: Crear un programa que lea un archivo "texto.txt", busque una palabra dada por el usuario y la reemplace por otra palabra también dada por el usuario, guardando el resultado en un nuevo archivo "resultado.txt".
+
+TERMINADO
+Ejercicio 9: Grabar y Leer Instancias
+Objetivo: Persistir instancias mediante archivos.
+Descripción: Programe una clase (puede utilizar alguna de las definidas en el Práctico 1) con sus atributos y luego cree una Clase GuardarInstancias.java que cree dos instancias y las guarde en un archivo y luego la clase RecuperarInstancias.java que lea la información de ese archivo y cree de nuevo las dos instancias con todos los mismos valores de atributos que tenían las originales.
+
+NO TERMINADO(ME DERROTÓ)
+Ejercicio 10: Búsqueda
+Objetivo: Realizar búsquedas en  archivos.
+Descripción: Haga un programa que le pida al usuario el valor de algún atributo de la clase definida en el ejercicio anterior y muestre por pantalla la primer instancia que contiene ese valor si es que existe.

@@ -1,0 +1,15 @@
+Final libre Introducción a la Programación II - 15/2/2022
+
+Se tiene un árbol binario precargado ARBCLIENTES, donde cada nodo contiene como datos: nro_cliente de tipo entero y una posición de archivo de registros, cuyo nombre de archivo es **clientes.dat**. En cada registro del archivo hay un dni de tipo entero y apellido de tipo string. Los dni no se repiten.
+
+El árbol está ordenado por nro_cliente (no hay nro_cliente repetidos).
+
+Se pide crear una lista circular de índices (o lista invertida) LISTCIRCULARCLIENTES de nodos que apuntan a los nodos de ARBCLIENTES, que cumplen con las siguientes condiciones:
+* los nodos del árbol se encuentran después del nivel MINNIVEL. Considerar que la raíz del árbol es nivel = 0.
+* los dni son mayores a un valor MINDNI.
+* los nro_cliente son menores a un valor MAXCLIENTE,
+
+La lista LISTCIRCULARCLIENTES debe estar ordenada en todo momento de forma creciente por los dni pertenecientes a los nodos de ARBCLIENTES.
+ MINNIVEL, MINDNI y MAXCLIENTE deben ser ingresados por el usuario.
+
+Deberá realizar el DE y el programa completo (sin el método de carga del árbol, ni impresiones), con todas las declaraciones de variables, asignaciones, y métodos necesarios para resolver el ejercicio (sin utilizar estructuras auxiliares ni realizar recorridos innecesarios).

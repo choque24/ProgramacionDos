@@ -1,0 +1,19 @@
+Práctico 4: Recursion
+
+
+Objetivo: a lo largo de este práctico aprenderás sobre el mecanismo de Recursión y cuando conviene utilizarlo
+
+1.Calcular recursivamente el Máximo Común Divisor de dos enteros no negativos basándose en las siguientes fórmulas matemáticas:
+MCD(X,X)=X             X<Y⇒MCD(X,Y)=MCD(Y,X)        X>Y⇒MCD(X,Y)=MCD(X−Y,Y)
+MCD(X,0)=X          X<Y⇒MCD(X,Y)=MCD(Y,X)        X≥Y⇒MCD(X,Y)=MCD(Y,MOD(X,Y))
+
+
+2. Para verificar que un arreglo es capicúa de manera recursiva se sigue la siguiente estrategia. Un arreglo es capicúa si el primer elemento es igual al último y si el “subarreglo” que queda entre estos dos elementos también es capicúa. Ejemplo:
+
+Para poder plantearlo recursivamente, la clave está en poder aplicar la misma estrategia para verificar si el subarreglo interior es capicúa. Piense cómo solucionar este último problema, plantee cuándo “cortar” la recursión y codifique la solución.
+3. Realizar un método que verifique  recursivamente que una matriz cuadrada de MaxFilas por MaxColumnas de caracteres de lado es palíndroma (capicúa en todas sus filas y columnas).
+
+
+4.Implemente recursivamente los métodos  MostrarInvertido(), sumarValores, devolverMenor() de una Lista Simple de Enteros. Discutir si esta implementación es mejor o no que una Solución iterativa.
+5.  Considerar el Trabajo Práctico Especial Buscaminas, Resolver de manera recursiva la parte de la explosión que  dada una posición de fila y columna, si no hay una mina, muestra por pantalla las coordenadas de las celdas que se debieran destapar
+

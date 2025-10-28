@@ -1,0 +1,33 @@
+Práctico 3: Lista simple
+
+
+Objetivo: a lo largo de este práctico aprenderás sobre la clase Lista simple, cómo se implementa en Java, y como es usada desde los programas. Trabajarás sobre una lista de enteros  sin orden y otra ordenada. Finalmente, sobre la base de la lista ordenada de enteros, crearás una lista con información que modela una entidad del mundo real
+
+Ejercicio 1:  Implementar clase Lista simple de enteros  sin orden
+Implementar una clase Lista simple de Enteros sin ningún orden con todos los métodos necesarios para insertar al principio, insertar al final, borrar un elemento y mostrar todos los elementos. Además implemente los métodos públicos y (privados de ser necesario) para realizar las siguientes tareas:
+Retornar  la suma de los elementos de la lista simple.
+Retornar la cantidad de elementos de la lista
+Retornar el promedio de los elementos de la lista
+Retornar el mínimo nodo de la  lista.
+
+
+Ejercicio 2:  Usar en un programa instancias de clase Lista simple de enteros  sin orden
+Realizar un programa que cree dos instancias de Lista simple de Enteros, ListaUno y ListaDos (en ambos se debe permitir cargar la cantidad de elementos que usuario quiera) y luego informe por pantalla cual de las dos es mayor según la suma de sus elementos
+
+Ejercicio 3:  Implementar clase Lista simple de enteros  ordenada
+Implementar una clase Lista simple de Enteros ordenada de menor a mayor con los métodos insertar Ordenado, borrarElemento y buscar un elemento.
+
+Ejercicio 4:  Usar en un programa instancias de clase Lista simple de enteros  ordenada
+Realizar un programa que cree una lista ordenada con datos cargados por el usuario y luego debe informar por pantalla si se encuentra un elemento dado por el usuario
+
+Ejercicio 5:  Crear una clase de Entidades y usarla  en un programa
+Se tiene  una lista simple de PACIENTES de un consultorio local con los siguientes datos: número de  paciente, apellido y nombre, edad, domicilio(como un string), Obra Social(booleano que tiene un True si el paciente posee OS y False si no tiene).  La lista está ordenada por número de paciente.
+Implementar  las clases nodoPaciente con su constructor y  los métodos para acceder y modificar cada campo. Luego la ListadePacientes con los siguientes métodos:
+Ingresar  un paciente conservando el orden
+Dado un  número de paciente, y un domicilio, modificar el mismo, si es que existe el paciente en la lista
+Dado un número de paciente, borrarlo de la lista  si es que existe
+Retornar el número de paciente de mayor edad
+Mostrar la lista de pacientes
+
+Ejercicio 6:  Usar la  clase Lista de Pacientes en un programa
+     Crear un programa que cree una lista de pacientes vacía y luego permita mediante un menú ingresar paciente, dar de baja un paciente, modificar el domicilio de un paciente, retornar el paciente de mayor edad y mostrar la lista de pacientes.

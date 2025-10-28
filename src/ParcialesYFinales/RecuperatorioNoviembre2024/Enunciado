@@ -1,0 +1,31 @@
+
+
+Se tiene un árbol ordenado NUMEROS ya cargado con nodos que tiene dos campos:
+
+valor (entero)
+categoria (entero)
+
+Además de los dos punteros del árbol.
+El árbol está ordenado ascendente por valor y el mismo no se repite, mientras que categoria sí se puede repetir.
+
+Se pide crear aparte una lista doblemente vinculada LISTA_ORDEN para todos los nodos del árbol que cumplan todas las siguientes condiciones:
+
+El campo valor del nodo está por fuera de minValor y maxValor pedidos al usuario.
+Es decir, valor < minValor o valor > maxValor.
+
+La cantidad de nodos por el subárbol de menores (descendientes menores) del nodo es mayor estricta que la cantidad de nodos por el subárbol de mayores (descendientes mayores).
+
+En la lista LISTA_ORDEN, cada nodo además de sus dos punteros, solo guarda la categoria y debe generarse ordenada por este campo de manera descendente.
+No se deben agregar nodos con categoria ya existente.
+
+Notas:
+
+Se pide no recorrer de más el árbol en cuanto al minValor y maxValor.
+
+Existe un método LeerEntero() que retorna un entero y puede ser invocado para ingresar minValor y maxValor.
+
+Escribir las estructuras de cada clase con sus atributos y solo los métodos necesarios para resolver el problema y el main.
+
+Se pueden usar get y set para acceder a los atributos sin implementarlos.
+
+No se pueden usar estructuras auxiliares.

@@ -1,0 +1,33 @@
+Práctico 4: Tipos de Listas y Lista de listas
+
+
+Objetivo: a lo largo de este práctico aprenderás sobre diferentes tipos de listas vinculadas y cómo se pueden implementar como clases   en Java, y  ser usadas desde los programas.
+
+LISTO
+1. a)Complete la clase ListaCircular de enteros de la teoría agregando un metodo eliminar(num).  b)Hacer un programa que mediante un menú, permite crear una lista circular vacía, insertar un elemento, borrar un elemento, y mostrar la lista
+
+LISTO
+2. a) Implementar la clase ListaDobleVinculada Ordenada de enteros con la representación de un puntero inicial y otro final. b)Hacer un programa que mediante un menú, permite crear una lista vacía, insertar un elemento, borrar, recorrer desde el inicio y recorrer desde el final.
+
+3. Una estructura de datos Fila ó Cola, es una colección de elementos en donde el primer elemento en entrar es el primero en salir (pensar en un fila para entrar al cine). Implementar una clase FilaDeEnteros  como una lista vinculada(pensar en una representación de dos punteros). Luego codifique los  métodos: el constructor (inicia la fila vacia), agregar un elemento(lo agrega al final), extraer (extrae el primero), VerPrimero (retorna el elemento sin sacarlo), FilaVacia (retorna true si esta vacía); EscribirFila (muestra por pantalla todos los elementos)
+
+
+4.  Se tiene los datos de un empleado: Apellido y nombre(string), Categoría(char),Sueldo
+
+Realice un programa que lea por teclado los datos de varios empleados  para generar una lista ordenada de categorías, donde, para cada categoría, existe otra lista con los apellidos y nombres y sueldos de los empleados de la misma categoría  ordenada por apellido y nombre. Cuando el usuario no quiere entrar más empleados, entra una XX como Apellido.
+
+Codifique un procedimiento que, dada la lista anterior, pida un número de categoría e imprima todos los empleados que la poseen.
+
+
+5. Se tiene una lista vinculada de alumnos en el que cada nodo posee los siguientes datos:
+Apellido y Nombre
+Curso (1ro, 2do, 3ro, 4to , 5to ó 6to)
+DNI
+Domicilio
+Teléfono
+
+La lista se encuentra ordenada por curso y dentro de cada curso por apellido. Para obtener un listado alfabético de todos los alumnos implementaremos una lista “invertida”. Los nodos de una lista invertida apuntan a los nodos de la lista original pero se vinculan entre sí en otro orden, como en el siguiente gráfico:
+
+Si recorremos la lista invertida, el orden de los nodos es alfabético (Alvarez, Britos, Gomez, Ramirez, Sanchez) en lugar de por curso y esto nos permite emitir el listado con una pasada.
+Codifique el procedimiento que, dada la lista vinculada original, construya y devuelva la lista invertida correspondiente.
+b) Codifique un procedimiento que dé de alta un nuevo alumno en la estructura anterior, actualizando las dos listas para que ambas mantengan el orden que corresponda. Para simplificar suponga que el procedimiento recibe como parámetro el nodo con los datos del nuevo alumno.
